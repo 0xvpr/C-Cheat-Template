@@ -6,7 +6,7 @@
 
 # This script is intended to work with Pidjeon for a seamless injection process.
 
-TARGET="target.exe"               # Change as necessary
+TARGET="HitmanBloodMoney.exe"     # Change as necessary
 PAYLOAD="Bin/Release/Payload.dll" # Change as necessary
 PIDJEON_PATH="${HOME}/.toolkit"   # Change as necessary
 

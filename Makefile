@@ -5,7 +5,7 @@ ARCH        = Win32
 
 CMAKE       = cmake.exe
 TOOLCHAIN   = 
-CMAKE_FLAGS =
+CMAKE_FLAGS = 
 
 BUILD       = build
 SOURCE      = source

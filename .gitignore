@@ -54,3 +54,6 @@ dkms.conf
 # Folders
 bin
 build
+
+# Files
+inject.sh

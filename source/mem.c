@@ -1,6 +1,6 @@
 #include "mem.h"
 
-uintptr_t memory_find_dynamic_address(uintptr_t ptr, unsigned* offsets, size_t size)
+uintptr_t memory_find_dynamic_address(uintptr_t ptr, uint16_t* offsets, size_t size)
 { 
     uintptr_t addr = ptr;
 

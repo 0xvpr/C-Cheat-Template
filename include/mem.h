@@ -19,13 +19,13 @@
  *
  * @return: uintptr_t
 **/
-uintptr_t memory_find_dynamic_address(uintptr_t ptr, unsigned offsets[], size_t size);
+uintptr_t memory_find_dynamic_address(uintptr_t ptr, uint16_t* offsets, size_t size);
 
 /**
  * Byte replacement from source to destination.
  *
- * @param:  char* destination
- * @param:  char* source
+ * @param:  void destination
+ * @param:  void source
  * @param:  size_t size
  *
  * @return: void
@@ -46,8 +46,8 @@ bool memory_detour(void* targetFunc, void* myFunc, size_t size);
 /**
  * Hooks into a function and detours the target function to another function, then jumps back.
  *
- * @param:  char* src
- * @param:  char* dst
+ * @param:  void* src
+ * @param:  void* dst
  * @param:  size_t size
  *
  * @return: char*
